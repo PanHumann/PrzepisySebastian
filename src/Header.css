@@ -1,3 +1,14 @@
 .appBar {
-    background: linear-gradient(to right, #8505e0, #0ed104);
-  }
+  background: linear-gradient(to right, #000000, #00ff00); /* Czarno-Zielony gradient */
+}
+
+.header-title {
+  color: #00ff00; /* Zielony */
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.header-subtitle {
+  color: #ffffff; /* Biały dla lepszego kontrastu */
+  font-size: 1em;
+}

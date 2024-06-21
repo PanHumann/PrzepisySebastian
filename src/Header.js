@@ -11,8 +11,8 @@ export default function Header() {
       <AppBar position="static" className="appBar">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <h3>Wyszukiwarka Twoich Przepisów</h3>
-            Znajdź swój ulubiony przepis !
+            <h3 className="header-title">Wyszukiwarka Twoich Przepisów</h3>
+            <span className="header-subtitle">Znajdź swój ulubiony przepis!</span>
           </Typography>
         </Toolbar>
       </AppBar>
