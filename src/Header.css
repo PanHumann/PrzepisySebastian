@@ -38,7 +38,7 @@
 
 /* Stylizacja głównego tytułu */
 .header-content {
-  background: url('/path/to/your/image.jpg') no-repeat center center;
+  background: url("%PUBLIC_URL%/background_skh.jpg") no-repeat center center;
   background-size: cover;
   padding: 100px 20px;
   text-align: center;
