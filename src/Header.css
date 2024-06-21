@@ -1,14 +1,51 @@
+
 .appBar {
-  background: linear-gradient(to right, #000000, #00ff00); /* Czarno-Zielony gradient */
+  background: linear-gradient(to right, #000000, #00ff00); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
 }
+
+
+.menuButton {
+  margin-right: 16px;
+}
+
 
 .header-title {
-  color: #00ff00; /* Zielony */
+  color: #00ff00; 
   font-size: 1.5em;
-  margin: 0;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
-.header-subtitle {
-  color: #ffffff; /* Biały dla lepszego kontrastu */
-  font-size: 1em;
+.header-title:hover {
+  color: #ffffff; 
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #00ff00;
+}
+
+
+.header-content {
+  background: url('/path/to/your/image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.main-title {
+  color: #00ff00;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
