@@ -38,7 +38,7 @@
 
 /* Stylizacja głównego tła */
 .header-content {
-  background: url("/background_skh.jpg") no-repeat center center;
+  background: url("https://wallpapercave.com/wp/wp2245610.jpg") no-repeat center center;
   background-size: cover; /* Skalowanie tła, aby pokryć cały obszar */
   padding: 100px 20px;
   text-align: center;
