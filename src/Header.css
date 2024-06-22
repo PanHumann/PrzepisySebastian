@@ -1,50 +1,50 @@
-/* Stylizacja dla AppBar */
+
 .appBar {
-  background: linear-gradient(to right, #000000, #00ff00); /* Czarno-Zielony gradient */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Dodanie cienia */
+  background: linear-gradient(to right, #000000, #686c68); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* Stylizacja przycisku menu */
+
 .menuButton {
   margin-right: 16px;
 }
 
-/* Stylizacja tytułu nagłówka */
+
 .header-title {
-  color: #00ff00; /* Zielony lime */
+  color: #ffffff; 
   font-size: 1.5em;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
 .header-title:hover {
-  color: #ffffff; /* Efekt najechania */
+  color: rgb(255, 255, 0); 
 }
 
-/* Stylizacja linków nawigacyjnych */
+
 .nav-links {
   display: flex;
   gap: 16px;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: rgb(255, 255, 0); 
   transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover {
-  color: #00ff00;
+  color: rgb(255, 255, 0); 
 }
 
-/* Stylizacja głównego tła */
+
 .header-content {
-  background: url("https://wallpapercave.com/wp/wp2245610.jpg") no-repeat center center;
-  background-size: cover; /* Skalowanie tła, aby pokryć cały obszar */
+  background: url("https://images.squarespace-cdn.com/content/v1/58781dac414fb53c290e08e0/1552952401178-DNBYAY72OAWDH9D6SOJ4/Limes-01+copy.jpg") no-repeat center center;
+  background-size: cover; 
   padding: 100px 20px;
   text-align: center;
 }
 
-/* Media queries dla różnych rozdzielczości */
+
 @media (max-width: 768px) {
   .header-content {
       padding: 50px 10px;
@@ -63,4 +63,14 @@
   .main-title {
       font-size: 4em;
   }
+}
+
+
+a {
+  color: #ffffff; 
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #000000; 
 }

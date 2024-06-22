@@ -29,7 +29,7 @@ const RecipesList = ({ recipes }) => {
         ))
       ) : (
         <Grid item xs={12}>
-          <Typography variant="body1">Nadal nie wyszukałeś żadnego przepisu</Typography>
+          <Typography variant="body1">Wpisz nazwe przepisu który szukasz w wyszukiwarke</Typography>
         </Grid>
       )}
     </Grid>

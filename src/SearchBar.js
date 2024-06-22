@@ -55,7 +55,7 @@ const SearchBar = ({ setRecipes }) => {
         onKeyPress={handleKeyPress}
         sx={{
           '& .MuiOutlinedInput-root': {
-            backgroundColor: 'lightgreen',
+            backgroundColor: 'yellow',
           },
         }}
       />
